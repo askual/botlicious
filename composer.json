@@ -1,0 +1,12 @@
+{
+    "name": "deqiq/deqiqbot",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Botlicious\\": "src/"
+        },
+        "files": ["config.php"]
+    }
+}
