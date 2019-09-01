@@ -1,12 +1,13 @@
 {
     "name": "deqiq/deqiqbot",
     "require": {
-
+        "vlucas/phpdotenv": "^3.5"
     },
     "autoload": {
         "psr-4": {
-            "Botlicious\\": "src/"
+            "Botlicious\\": "src/",
+            "Bot\\": "bot/"
         },
-        "files": ["config.php"]
+        "files": ["src/helpers.php"]
     }
 }

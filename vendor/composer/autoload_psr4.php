@@ -6,5 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
+    'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
     'Botlicious\\' => array($baseDir . '/src'),
+    'Bot\\' => array($baseDir . '/bot'),
 );

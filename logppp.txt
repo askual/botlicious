@@ -1,1 +1,0 @@
-{"one_time_keyboard":true,"keyboard":[[{"text":"haha","request_contact":true}],["cancel"]]}
