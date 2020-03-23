@@ -12,7 +12,6 @@
             "email": "kibdemta@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Askual\\Botlicious\\": "src/"
