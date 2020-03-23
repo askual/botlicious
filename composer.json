@@ -15,7 +15,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Askual\\Botlicious\\": "src/",
+            "Askual\\Botlicious\\": "src/"
         },
         "files": ["src/helpers.php"]
     }
