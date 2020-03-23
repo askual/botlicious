@@ -18,5 +18,6 @@
             "Askual\\Botlicious\\": "src/"
         },
         "files": ["src/helpers.php"]
-    }
+    },
+    "version": "0.0.1"
 }
