@@ -1,12 +1,21 @@
 {
-    "name": "deqiq/deqiqbot",
+    "name": "askual/botlicious",
+    "description": "A php bot framework for telegram",
     "require": {
         "vlucas/phpdotenv": "^3.5"
     },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kibru Demeke",
+            "email": "kibdemta@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Botlicious\\": "src/",
-            "Bot\\": "bot/"
+            "Askual\\Botlicious\\": "src/",
         },
         "files": ["src/helpers.php"]
     }
